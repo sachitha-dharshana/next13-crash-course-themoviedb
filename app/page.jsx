@@ -1,5 +1,4 @@
 import Movie from "./components/Movie";
-import styles from "./page.module.css";
 
 export default async function Home() {
   const data = await fetch(
